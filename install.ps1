@@ -263,7 +263,7 @@ if (
     Write-Host "Next:"
     Write-Host ""
     Write-Host "  cd `"$RepoPath`""
-    Write-Host "  .\bootstrap.ps1 -Plan"
+    Write-Host "  pwsh -NoProfile -File .\bootstrap.ps1 -Plan"
 }
 else {
     Write-Host "[PENDING] Recovery prerequisites are incomplete"
